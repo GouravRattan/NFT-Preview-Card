@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Outfit", sans-serif;
+  padding: 0;
+  width: 100%;
+  background-color: hsl(217, 54%, 11%);
+  box-sizing: border-box;
+}
+
+.container_main {
+  width: 22%;
+  background-color: hsla(244, 92%, 10%, 0.149);
+  margin: 5% auto;
+  padding: 0px 0px 60px 0px;
+  border-radius: 70px 70px 50px 50px;
+}
+
+.eye img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid red 2px;
+}
+
+.container {
+  width: 250px;
+  color: white;
+  background-color: hsl(216, 50%, 16%);
+  margin: 0% auto;
+  padding: 0px 20px;
+  border-radius: 20px;
+}
+
+.hero-img {
+  cursor: pointer;
+}
+
+.hero-img img {
+  width: 100%;
+  padding-top: 20px;
+  position: relative;
+}
+
+.container .hero-img div {
+  position: absolute;
+  top: 97px;
+  background-color: rgba(0, 255, 255, 0.728);
+  width: 16.2%;
+  height: 32%;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.container .hero-img:hover div {
+  opacity: 1;
+}
+
+.hero-img div img {
+  position: absolute;
+  width: 15%;
+  left: 43%;
+  top: 35%;
+  border-radius: 50px;
+}
+
+.discription a {
+  text-decoration: none;
+  color: white;
+}
+
+.discription p {
+  color: hsl(215, 51%, 70%);
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.quantity {
+  display: flex;
+  margin: -30px 0px;
+}
+
+.EthContainer {
+  display: flex;
+}
+
+.EthContainer img {
+  height: 15px;
+  margin-top: 45px;
+}
+
+.EthContainer h5 {
+  margin-top: 45px;
+  margin-left: 10px;
+  font-weight: 700;
+  color: hsl(215, 51%, 70%);
+}
+
+.ClockContainer {
+  display: flex;
+  margin-left: 85px;
+}
+
+.ClockContainer img {
+  height: 15px;
+  margin-top: 45px;
+}
+
+.ClockContainer p {
+  margin: 43px 0px 43px 10px;
+  color: hsl(215, 51%, 70%);
+  font-weight: 300;
+  font-size: small;
+}
+
+.creator {
+  display: flex;
+  align-items: center;
+  margin: -20px -20px;
+}
+
+.creator img {
+  width: 10%;
+  border: solid white 1px;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+.creator p {
+  color: rgb(111, 111, 175);
+  margin: 15px 2px 15px -10px;
+}
+
+.creator a {
+  margin: 5px;
+  padding-bottom: px;
+  color: white;
+  text-decoration: none;
+}
